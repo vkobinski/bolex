@@ -1,0 +1,60 @@
+name: victor_kobinski_s_application2
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+  flutter_bloc: ^8.0.0
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  equatable: ^2.0.0
+  flutter_svg_provider: ^1.0.3
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Roboto
+      fonts: 
+        - asset: assets/fonts/RobotoRomanBold.ttf
+          weight: 700
+        - asset: assets/fonts/RobotoRomanRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RobotoItalicRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RobotoRomanMedium.ttf
+          weight: 500
+        - asset: assets/fonts/RobotoMedium.ttf
+          weight: 500
+        - asset: assets/fonts/RobotoSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/RobotoRomanSemiBold.ttf
+          weight: 600
+    - family: Arial Rounded MT Bold
+      fonts: 
+        - asset: assets/fonts/ArialRoundedMTBold.ttf
+          weight: 400
+    - family: Montserrat
+      fonts: 
+        - asset: assets/fonts/MontserratSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/MontserratBold.ttf
+          weight: 700
+    - family: SF Pro Display
+      fonts: 
+        - asset: assets/fonts/SFProDisplayRegular.ttf
+          weight: 400
+    - family: SF Pro Text
+      fonts: 
+        - asset: assets/fonts/SFProTextBold.ttf
+          weight: 700
